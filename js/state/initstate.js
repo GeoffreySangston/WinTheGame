@@ -32,8 +32,8 @@ InitState.prototype.downloadAndLaunch = function(game){
 InitState.prototype.__imageDownloadCallback = function(game){
 	game.audioHandler.downloadAll(
 		game.__setState.bind(game), 
-		//SELECTSTATE
-		LEVELSTATE_FINDTHEKEY
+		SELECTSTATE
+		//LEVELSTATE_FINDTHEKEY
 	);
 }
 
