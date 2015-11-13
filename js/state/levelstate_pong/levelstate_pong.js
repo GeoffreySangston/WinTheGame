@@ -1,3 +1,5 @@
+// just put state specific globals here
+
 var PADDLE = 11000;
 var BALL = 11001;
 var WALL = 11002;

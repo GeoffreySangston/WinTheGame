@@ -6,13 +6,14 @@ function InputHandler(gameContainer){
 	this.listen();
 	
 	this.keyStates = {};
-	this.keyStates[Z] = KEYSTATIC;
-	this.keyStates[X] = KEYSTATIC;
 	this.keyStates[A] = KEYSTATIC;
+	this.keyStates[D] = KEYSTATIC;
+	this.keyStates[E] = KEYSTATIC;
 	this.keyStates[M] = KEYSTATIC;
 	this.keyStates[W] = KEYSTATIC;
-	this.keyStates[D] = KEYSTATIC;
 	this.keyStates[S] = KEYSTATIC;
+	this.keyStates[X] = KEYSTATIC;
+	this.keyStates[Z] = KEYSTATIC;
 	this.keyStates[LEFT] = KEYSTATIC;
 	this.keyStates[UP] = KEYSTATIC;
 	this.keyStates[RIGHT] = KEYSTATIC;
