@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Win The Game!</title>
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- ENGINE FILES -->
+	<script src="js/winengine/engineglobals.js"></script>
+	<script src="js/winengine/engine.js"></script>
+	<script src="js/winengine/game.js"></script>
+	<script src="js/winengine/htmlactuator.js"></script>
+	<script src="js/winengine/inputhandler.js"></script>
+	<script src="js/winengine/renderer.js"></script>
+	<script src="js/winengine/audiohandler.js"></script>
+	<script src="js/winengine/audioplayer.js"></script>
+	<script src="js/winengine/imagehandler.js"></script>
+	
+		
+	<script src="js/winengine/entity.js"></script>
+	<script src="js/winengine/collision.js"></script>
+	
+	<script src="js/winengine/background.js"></script>
+	<script src="js/winengine/backgroundhandler.js"></script>
+	
+	<script src="js/winengine/eventhandler.js"></script>
+	
+	<script src="js/winengine/state.js"></script>
+	<script src="js/winengine/statefactory.js"></script>
+	<script src="js/winengine/statemachine.js"></script>
+
+
+	<!-- GAME FILES -->
+	<script src="js/gameglobals.js"></script>
+	<script src="js/wingame.js"></script>
+	
+	<script src="js/state/initstate.js"></script>
+	<script src="js/state/selectstate.js"></script>
+		<script src="js/state/selectstate/selectstate_backgroundhandler.js"></script>
+		<script src="js/state/selectstate/selectstate_eventhandler.js"></script>
+	<script src="js/state/levelstate.js"></script>
+	<script src="js/state/levelstate_behappy.js"></script>
+	<script src="js/state/levelstate_findthekey.js"></script>
+	<script src="js/state/levelstate_pong.js"></script>
+		<script src="js/state/levelstate_pong/paddle.js"></script>
+		<script src="js/state/levelstate_pong/aipaddle.js"></script>
+		<script src="js/state/levelstate_pong/ball.js"></script>
+		<script src="js/state/levelstate_pong/wall.js"></script>
+	
+	<script src="js/winstatefactory.js"></script>
+
+	<script src="js/main.js"></script>
+	<script src="js/application.js"></script>
+</head>
+<body>
+	<div id="page-container">
+		<div id="page">
+			<h1> Win The Game! </h1>
+			<canvas id="canvas"></canvas>
+		</div>
+	</div>
+
+
+</body>
+</html>
