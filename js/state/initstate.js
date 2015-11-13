@@ -19,7 +19,7 @@ InitState.prototype.init = function(game){
 		game.imageHandler.queueDownload("img/selectitemtemp.png");
 
 		
-		//game.audioHandler.queueDownload("audio/CreepyGameRough1.mp3");
+		game.audioHandler.queueDownload("audio/levelselect.mp3");
 		this.downloadAndLaunch(game);
 		
 		
