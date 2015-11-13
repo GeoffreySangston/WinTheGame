@@ -16,11 +16,13 @@ var UP = 38;
 var RIGHT = 39;
 var DOWN = 40;
 var SPACE = 32;
-var X = 88;
-var Z = 90;
 var A = 65;
+var B = 66;
+var C = 67;
+var D = 68;
+var E = 69;
 var M = 77;
 var W = 87;
-var D = 68;
 var S = 83;
-
+var X = 88;
+var Z = 90;
