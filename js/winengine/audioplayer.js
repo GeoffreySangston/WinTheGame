@@ -37,6 +37,22 @@ AudioPlayer.prototype.loopAudio = function(audioRef, audioStart, loopStart, loop
 
 };
 
+AudioPlayer.prototype.playAudio = function(audioRef, audioStart){
+	var audio = this.audioHandler.cache[audioRef];
+	this.curAudio = audio;
+
+	if(!audio){
+		throw("No such audio: " + audioRef);
+	}
+	
+	audio.currentTime = audioStart;
+	audio.volume = this.volume;
+	
+	audio.play();
+	
+
+};
+
 AudioPlayer.prototype.setVolume = function(volume){
 	this.volume = volume;
 	this.curAudio.volume = this.volume;

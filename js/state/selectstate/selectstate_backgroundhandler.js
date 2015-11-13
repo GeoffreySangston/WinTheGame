@@ -25,7 +25,7 @@ SelectState_BackgroundHandler.prototype.initBackgrounds = function(game){
 };
 
 SelectState_BackgroundHandler.prototype.initForegrounds = function(game){
-	var fg_dojoDoors = new Background("img/dojodoors.png", 2, 2*TICKSPERSECOND);
+	var fg_dojoDoors = new Background("img/dojodoors.png", 2, 3*TICKSPERSECOND);
 	
 	this.fgs[0] = fg_dojoDoors; 
 	this.fgUpdates[0] = this.updateDojoDoors.bind(this);

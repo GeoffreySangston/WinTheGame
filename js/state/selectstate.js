@@ -118,6 +118,7 @@ SelectState.prototype.updateInput = function(game){
 };
 
 SelectState.prototype._closeDoors = function(game){
+	game.audioPlayer.playAudio("audio/levelselect.mp3",0,1)
 	this.backgroundHandler.closeDoors(game);
 	this.eventHandler.startCheckingDoors();
 };
