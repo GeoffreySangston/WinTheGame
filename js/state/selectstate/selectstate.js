@@ -8,7 +8,7 @@ function SelectState(){
 	this.chapters = [
 		{title: "Be Happy :)", 				titleMarginLeft: 20, titleMarginTop: 90, thumb: "img/selectitemtemp.png", hovered: false, levelId: LEVELSTATE_BEHAPPY},
 		{title: "Find The Key", 			titleMarginLeft: 15, titleMarginTop: 90, thumb: "img/selectitemtemp.png", hovered: false, levelId: LEVELSTATE_FINDTHEKEY}, 
-		{title: "Just Kidding", 			titleMarginLeft: 18, titleMarginTop: 90, thumb: "img/selectitemtemp.png", hovered: false, levelId: LEVELSTATE}, 
+		{title: "Just Kidding", 			titleMarginLeft: 18, titleMarginTop: 90, thumb: "img/selectitemtemp.png", hovered: false, levelId: LEVELSTATE_FALLING}, 
 		{title: "Never", 					titleMarginLeft: 35, titleMarginTop: 90, thumb: "img/selectitemtemp.png", hovered: false, levelId: LEVELSTATE},
 		{title: "Lalala", 					titleMarginLeft: 35, titleMarginTop: 90, thumb: "img/selectitemtemp.png", hovered: false, levelId: LEVELSTATE}, 	 
 		{title: "The Way",					titleMarginLeft: 28, titleMarginTop: 90, thumb: "img/selectitemtemp.png", hovered: false, levelId: LEVELSTATE}, 	

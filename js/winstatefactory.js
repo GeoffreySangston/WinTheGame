@@ -12,6 +12,7 @@ WinStateFactory.prototype.getState = function(stateId){
 		case LEVELSTATE: return new LevelState();
 		case LEVELSTATE_BEHAPPY: return new LevelState_BeHappy();
 		case LEVELSTATE_FINDTHEKEY: return new LevelState_FindTheKey();
+		case LEVELSTATE_FALLING: return new LevelState_Falling();
 		case LEVELSTATE_PONG: return new LevelState_Pong();
 		default:
 	

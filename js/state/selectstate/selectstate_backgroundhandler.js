@@ -25,7 +25,7 @@ SelectState_BackgroundHandler.prototype.initBackgrounds = function(game){
 };
 
 SelectState_BackgroundHandler.prototype.initForegrounds = function(game){
-	var fg_dojoDoors = new Background("img/dojodoors.png", 2, 3*TICKSPERSECOND);
+	var fg_dojoDoors = new Background("img/dojodoors.png", 9, 3*TICKSPERSECOND);
 	
 	this.fgs[0] = fg_dojoDoors; 
 	this.fgUpdates[0] = this.updateDojoDoors.bind(this);
@@ -69,7 +69,7 @@ SelectState_BackgroundHandler.prototype.updateBase = function(game, bg){
 SelectState_BackgroundHandler.prototype.updateDojoDoors = function(game, bg){
 	var ticksElapsed = game.getCurState().ticks - bg.startTick;
 	if(ticksElapsed < bg.tickLength){
-		bg.frame = Math.floor(bg.numFrames*ticksElapsed/bg.tickLength);
+		bg.frame = bg.numFrames - Math.floor(bg.numFrames*ticksElapsed/bg.tickLength) - 1;
 	} else {
 		this.dojoDoorsFinished = true; // may want other bgs to have different "finished" conditions than ticks elapsed
 		bg.finished = true;
